@@ -31,8 +31,8 @@ class _HomePageState extends State<Home> {
   String _textoInfo = "Informe seus dados";
 
   void _limpar_Tela(){
-    usuarioController.text = "";
-    senhaController.text = "";
+    pesoController.text = "";
+    alturaController.text = "";
     setState(() {
       _textoInfo = "informe seus dados";
     });
